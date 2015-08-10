@@ -1,2 +1,0 @@
-# puppet-midonet-mem
-TEST
