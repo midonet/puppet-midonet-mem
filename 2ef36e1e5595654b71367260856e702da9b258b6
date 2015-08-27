@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_8eb55a33",
+        "filename": "templates/asdasd",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-08-27T14:38:49Z",
+      "side": 1,
+      "message": "Shouldn\u0027t it have a more recognizable name? Like midonet-manager ?",
+      "revId": "2ef36e1e5595654b71367260856e702da9b258b6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
