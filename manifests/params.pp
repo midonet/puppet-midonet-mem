@@ -25,6 +25,7 @@ class midonet_mem::params {
       fail("Unsupported platform: midonet-${module_name} only supports RedHat and Debian based OS")
     }
   }
+    $servername = 'midonet-manager'
     $api_namespace = 'midonet-api'
     $agent_config_api_namespace = 'conf'
     $mem_install_path = '/var/www/html/midonet-manager'
