@@ -1,0 +1,191 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_7b228402",
+        "filename": "files/mem.key",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-08-31T15:28:53Z",
+      "side": 1,
+      "message": "Is this file used at all? I thought we had to embed its content at manifests/repository/*.pp",
+      "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_5bd060f7",
+        "filename": "manifests/init.pp",
+        "patchSetId": 3
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-08-31T15:28:53Z",
+      "side": 1,
+      "message": "repo_user",
+      "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_7bcd245d",
+        "filename": "manifests/init.pp",
+        "patchSetId": 3
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-08-31T15:28:53Z",
+      "side": 1,
+      "message": "repo_password\n\nI think the namespacing of it being part of midonet_mem class is enough reference to it being mem.",
+      "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_bbeeccb2",
+        "filename": "manifests/init.pp",
+        "patchSetId": 3
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-08-31T15:28:53Z",
+      "side": 1,
+      "message": "where does this $::ipaddress come from? Is it assuming this is an all-in-one and thus setting the same machine\u0027s ip address before requiring the cassandra and zookeeper classes?",
+      "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_9b4828ce",
+        "filename": "manifests/init.pp",
+        "patchSetId": 3
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-08-31T15:28:53Z",
+      "side": 1,
+      "message": "Same as above",
+      "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_db11d0b0",
+        "filename": "manifests/params.pp",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-08-31T15:28:53Z",
+      "side": 1,
+      "message": "This should be the whole fingerprint without whitespace (as is formatted below).",
+      "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_fb1694a6",
+        "filename": "manifests/repository.pp",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-08-31T15:28:53Z",
+      "side": 1,
+      "message": "This sample doc above should be filled with real data",
+      "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_9b1f48b7",
+        "filename": "manifests/vhost.pp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-08-31T15:28:53Z",
+      "side": 1,
+      "message": "No documentation...",
+      "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_bb1c0cc3",
+        "filename": "manifests/vhost.pp",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-08-31T15:28:53Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be configurable?",
+      "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_db78f0fa",
+        "filename": "metadata.json",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-08-31T15:28:53Z",
+      "side": 1,
+      "message": "7.1 should also be there.",
+      "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_5b6ce036",
+        "filename": "templates/mem_vhost.conf.orig",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-08-31T15:28:53Z",
+      "side": 1,
+      "message": "Is this used at all? I don\u0027t see a .erb of this file and I have the impression that we use the apache puppet module to get it generated.",
+      "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
