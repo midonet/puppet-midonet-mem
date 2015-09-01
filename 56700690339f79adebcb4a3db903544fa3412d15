@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_6c82c753",
+        "filename": "README.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-09-01T23:08:42Z",
+      "side": 1,
+      "message": "I think I prefer not having this file if the content is just a placeholder. You can add it in a follow-up patch.",
+      "revId": "56700690339f79adebcb4a3db903544fa3412d15",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_8c854b5b",
+        "filename": "manifests/init.pp",
+        "patchSetId": 5
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-09-01T23:08:42Z",
+      "side": 1,
+      "message": "Please, see the comments on patch set 3.",
+      "revId": "56700690339f79adebcb4a3db903544fa3412d15",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_ecdc1777",
+        "filename": "manifests/params.pp",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-09-01T23:08:42Z",
+      "side": 1,
+      "message": "Please, see the comment in patch set 3.",
+      "revId": "56700690339f79adebcb4a3db903544fa3412d15",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_0cd85b7e",
+        "filename": "manifests/repository.pp",
+        "patchSetId": 5
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-09-01T23:08:42Z",
+      "side": 1,
+      "message": "Please see the comment in patch set 3",
+      "revId": "56700690339f79adebcb4a3db903544fa3412d15",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
