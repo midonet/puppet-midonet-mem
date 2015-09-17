@@ -27,7 +27,6 @@ class midonet_mem::repository::centos (
   $repo_password = undef,
   $midonet_key,
   $midonet_thirdparty_repo,
-  $midonet_stage,
   $manage_distro_repo,
   $manage_epel_repo) {
     # Adding repository for CentOS
