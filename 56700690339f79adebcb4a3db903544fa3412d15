@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1ae5cdf2_f1aa426f",
+        "filename": "README.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1005645
+      },
+      "writtenOn": "2015-09-17T09:59:57Z",
+      "side": 1,
+      "message": "Removed until it is filled with real data.",
+      "parentUuid": "9ad9bd40_6c82c753",
+      "revId": "56700690339f79adebcb4a3db903544fa3412d15",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_8c854b5b",
         "filename": "manifests/init.pp",
         "patchSetId": 5
