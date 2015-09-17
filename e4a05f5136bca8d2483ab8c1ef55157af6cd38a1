@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1ae5cdf2_7ab1a7f7",
+        "filename": "manifests/repository.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-09-17T17:56:03Z",
+      "side": 1,
+      "message": "Please fix this whole section in another patch",
+      "revId": "e4a05f5136bca8d2483ab8c1ef55157af6cd38a1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
