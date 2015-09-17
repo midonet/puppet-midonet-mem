@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1ae5cdf2_f14b22ae",
+        "filename": "manifests/params.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-09-17T11:00:34Z",
+      "side": 1,
+      "message": "Fix the equals columns",
+      "revId": "0b69c288b8aa349920690d359688414347700417",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
