@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_dbed5090",
+        "filename": "files/mem.key",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1005645
+      },
+      "writtenOn": "2015-09-17T09:59:57Z",
+      "side": 1,
+      "message": "Deleted.",
+      "parentUuid": "9ad9bd40_7b228402",
+      "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_5bd060f7",
         "filename": "manifests/init.pp",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2015-08-31T15:28:53Z",
       "side": 1,
       "message": "repo_user",
+      "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_dbc63016",
+        "filename": "manifests/init.pp",
+        "patchSetId": 3
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1005645
+      },
+      "writtenOn": "2015-09-17T09:59:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_5bd060f7",
       "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_fbcbf41b",
+        "filename": "manifests/init.pp",
+        "patchSetId": 3
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1005645
+      },
+      "writtenOn": "2015-09-17T09:59:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_7bcd245d",
+      "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_bbeeccb2",
         "filename": "manifests/init.pp",
         "patchSetId": 3
@@ -64,6 +118,24 @@
       "writtenOn": "2015-08-31T15:28:53Z",
       "side": 1,
       "message": "where does this $::ipaddress come from? Is it assuming this is an all-in-one and thus setting the same machine\u0027s ip address before requiring the cassandra and zookeeper classes?",
+      "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_7bd7e4bf",
+        "filename": "manifests/init.pp",
+        "patchSetId": 3
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 1005645
+      },
+      "writtenOn": "2015-09-17T09:59:57Z",
+      "side": 1,
+      "message": "Yes, it is assumed that all the elements will be located at the same machine. This is a default config if you want to just call midonet class.\n\nThis is documented in: https://github.com/midonet/puppet-midonet#beginning-with-midonet  as a \u0027naive\u0027 deployment\n\nIt\u0027s assumed the user will fill the real data in hiera",
+      "parentUuid": "9ad9bd40_bbeeccb2",
       "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_9be4a8ad",
+        "filename": "manifests/init.pp",
+        "patchSetId": 3
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 1005645
+      },
+      "writtenOn": "2015-09-17T09:59:57Z",
+      "side": 1,
+      "message": "replied above",
+      "parentUuid": "9ad9bd40_9b4828ce",
+      "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_db11d0b0",
         "filename": "manifests/params.pp",
         "patchSetId": 3
@@ -98,6 +188,24 @@
       "writtenOn": "2015-08-31T15:28:53Z",
       "side": 1,
       "message": "This should be the whole fingerprint without whitespace (as is formatted below).",
+      "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ae5cdf2_917c9e22",
+        "filename": "manifests/params.pp",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1005645
+      },
+      "writtenOn": "2015-09-17T09:59:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_db11d0b0",
       "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -155,6 +263,24 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_fbf2146e",
+        "filename": "manifests/vhost.pp",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1005645
+      },
+      "writtenOn": "2015-09-17T09:59:57Z",
+      "side": 1,
+      "message": "Done. Added as a param and defaulted to \u002780\u0027 in params.pp",
+      "parentUuid": "9ad9bd40_bb1c0cc3",
+      "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_db78f0fa",
         "filename": "metadata.json",
         "patchSetId": 3
@@ -172,6 +298,24 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_5b8860c6",
+        "filename": "metadata.json",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1005645
+      },
+      "writtenOn": "2015-09-17T09:59:57Z",
+      "side": 1,
+      "message": "added.",
+      "parentUuid": "9ad9bd40_db78f0fa",
+      "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_5b6ce036",
         "filename": "templates/mem_vhost.conf.orig",
         "patchSetId": 3
@@ -183,6 +327,24 @@
       "writtenOn": "2015-08-31T15:28:53Z",
       "side": 1,
       "message": "Is this used at all? I don\u0027t see a .erb of this file and I have the impression that we use the apache puppet module to get it generated.",
+      "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ae5cdf2_91a3be9d",
+        "filename": "templates/mem_vhost.conf.orig",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1005645
+      },
+      "writtenOn": "2015-09-17T09:59:57Z",
+      "side": 1,
+      "message": "Removed.",
+      "parentUuid": "9ad9bd40_5b6ce036",
       "revId": "5915f79761028d97be5aaa0bd7652a03ba06029b",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
