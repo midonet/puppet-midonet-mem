@@ -18,7 +18,7 @@ class midonet_mem::params {
       $midonet_stage           = 'trusty'
       $manage_distro_repo      = true
       $midonet_thirdparty_repo = 'http://repo.midonet.org/misc'
-      }
+    }
 
     default: {
       fail("Unsupported platform: midonet-${module_name} only supports RedHat and Debian based OS")
@@ -40,5 +40,10 @@ class midonet_mem::params {
     $agent_config_api_host      = "http://${::ipaddress}:8459"
     $poll_enabled               = true
 
+
+  # midonet_mem::vhost
+  $apache_port = '80'
+  $servername  = "http://$::ipaddress"
+  $docroot     = '/var/www/html'
 }
 
