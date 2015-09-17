@@ -9,6 +9,11 @@ class midonet_mem::vhost (
       'url'  => "$midonet_mem::params::api_host",
     },
   ],
+  $directories = [
+    { 'path'  => $docroot,
+      'allow' => 'from all',
+    },
+  ],
 ) inherits midonet_mem::params {
 
   include ::apache
@@ -19,13 +24,7 @@ class midonet_mem::vhost (
     servername      => $servername,
     docroot         => $docroot,
     proxy_pass      => $proxy_pass,
-    redirect_source => '/midonet-manager',
-    redirect_dest   => $docroot,
-    directories     => [
-      { 'path'  => '/var/www/html',
-        'allow' => 'from all',
-      },
-    ],
+    directories     => $directories,
     require         => Package["$mem_package"],
   }
 
