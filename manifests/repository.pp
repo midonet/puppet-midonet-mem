@@ -36,20 +36,17 @@
 # Copyright 2015 Your name here, unless otherwise noted.
 
 class midonet_mem::repository (
-  $midonet_thirdparty_repo = $midonet_mem::params::midonet_thirdparty_repo,
-  $midonet_key             = $midonet_mem::params::midonet_key,
-  $midonet_stage           = $midonet_mem::params::midonet_stage,
-  $manage_distro_repo      = $midonet_mem::params::manage_distro_repo,
-  $manage_epel_repo        = $midonet_mem::params::manage_epel_repo,
-  $repo_user     = undef,
-  $repo_password = undef,
-) inherits midonet_mem::params {
+  $mem_repo_user = undef,
+  $mem_repo_password = undef,
+){
+
+  include ::midonet_mem::params
 
   case $::osfamily {
     'Debian': {
       class { '::midonet_mem::repository::ubuntu':
-        repo_user               => $repo_user,
-        repo_password           => $repo_password,
+        mem_repo_user           => $mem_repo_user,
+        mem_repo_password       => $mem_repo_password,
         midonet_thirdparty_repo => $midonet_mem::params::midonet_thirdparty_repo,
         midonet_key             => $midonet_mem::params::midonet_key,
         midonet_stage           => $midonet_mem::params::midonet_stage,
@@ -57,8 +54,8 @@ class midonet_mem::repository (
     }
     'RedHat': {
       class { '::midonet_mem::repository::centos':
-        repo_user               => $repo_user,
-        repo_password           => $repo_password,
+        mem_repo_user           => $mem_repo_user,
+        mem_repo_password       => $mem_repo_password,
         midonet_thirdparty_repo => $midonet_mem::params::midonet_thirdparty_repo,
         midonet_key             => $midonet_mem::params::midonet_key,
         midonet_stage           => $midonet_mem::params::midonet_stage,
