@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1ae5cdf2_dac8fb76",
+        "filename": "manifests/params.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-09-17T17:54:13Z",
+      "side": 1,
+      "message": "shouldn\u0027t login_host go before mem_* if it is alphabetically sorted?",
+      "revId": "d5394f0bfe9123b5885be8182c5d4513c1c06f4b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ae5cdf2_fac5b75b",
+        "filename": "manifests/params.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-09-17T17:54:13Z",
+      "side": 1,
+      "message": "shouldn\u0027t poll_enabled go before trace*",
+      "revId": "d5394f0bfe9123b5885be8182c5d4513c1c06f4b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
