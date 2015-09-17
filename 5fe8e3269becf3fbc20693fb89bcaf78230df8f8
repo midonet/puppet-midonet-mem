@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1ae5cdf2_91dbbeec",
+        "filename": "manifests/repository.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-09-17T11:02:59Z",
+      "side": 1,
+      "message": "Make another patch that fills this.",
+      "revId": "5fe8e3269becf3fbc20693fb89bcaf78230df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ae5cdf2_71d712c2",
+        "filename": "manifests/repository.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-09-17T11:02:59Z",
+      "side": 1,
+      "message": "What is the reason for this?",
+      "revId": "5fe8e3269becf3fbc20693fb89bcaf78230df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ae5cdf2_51d216d3",
+        "filename": "manifests/repository.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-09-17T11:02:59Z",
+      "side": 1,
+      "message": "Here you are changing names back to have \"mem\". I don\u0027t think this is wanted.",
+      "revId": "5fe8e3269becf3fbc20693fb89bcaf78230df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ae5cdf2_b1d8baf0",
+        "filename": "manifests/repository/centos.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-09-17T11:02:59Z",
+      "side": 1,
+      "message": "This should stay without having \"mem\" in the name.",
+      "revId": "5fe8e3269becf3fbc20693fb89bcaf78230df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ae5cdf2_d1e546a9",
+        "filename": "manifests/repository/ubuntu.pp",
+        "patchSetId": 2
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-09-17T11:02:59Z",
+      "side": 1,
+      "message": "again the same.",
+      "revId": "5fe8e3269becf3fbc20693fb89bcaf78230df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
