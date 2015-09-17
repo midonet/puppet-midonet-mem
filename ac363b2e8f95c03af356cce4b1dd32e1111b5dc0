@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1ae5cdf2_117a4ef1",
+        "filename": "manifests/params.pp",
+        "patchSetId": 6
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003057
+      },
+      "writtenOn": "2015-09-17T10:34:54Z",
+      "side": 1,
+      "message": "trusty? This seems Ubuntu specific. I suspect this variable is not needed here.",
+      "revId": "ac363b2e8f95c03af356cce4b1dd32e1111b5dc0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
