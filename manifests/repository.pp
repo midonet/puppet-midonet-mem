@@ -61,7 +61,6 @@ class midonet_mem::repository (
         repo_password           => $repo_password,
         midonet_thirdparty_repo => $midonet_mem::params::midonet_thirdparty_repo,
         midonet_key             => $midonet_mem::params::midonet_key,
-        midonet_stage           => $midonet_mem::params::midonet_stage,
         manage_distro_repo      => $midonet_mem::params::manage_distro_repo,
         manage_epel_repo        => $midonet_mem::params::manage_epel_repo,
       }
