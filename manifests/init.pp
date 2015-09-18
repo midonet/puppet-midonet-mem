@@ -1,32 +1,29 @@
 # == Class: midonet_mem
 #
-# Install and configure Midokura Enterprise MidoNet (MEM)
+# This class does not install nor configure Midokura Enterprise Midonet by
+# itself, but includes the needed class calls for both midonet & midonet_mem
+# Puppet modules in order to simplify and to serve as an example on how the
+# installation would be.
 #
 # === Parameters
-# [api_namespace]
-#   The default value for the api_namespace is set to midonet-api which usually
-#   does not have to be changed.
-#   Default value: "api_namespace": "midonet-api"
+# [*repo_user*]
+#   The username of the Midokura Enterprise MidoNet repository.
 #
-# [agent_config_api_namespace]
-#   The default value for the 'agent_config_api_namespace' is set to 'conf'
-#   which usually does not have to be changed.
-#   Default value: "api_namespace": "conf"
+# [*repo_password*]
+#   The password of the username for the Midokura Enterprise MidoNet repository
 #
 # === Examples
 #
-# This class should be called by using 'include' if data is available in hiera:
+# This class cannot be called by using 'include' since both 'repo_user' and
+# 'repo_password' params are mandatory to declare.
 #
-#   include midonet_mem
+# Thus this class should be called by using 'class' and specifying the values
+# for both params:
 #
-# Otherwise, it must be called by using 'class' specifying parameters and
-# values:
-#
-# class { '::midonet_mem':
-#   repo_user     => 'username',
-#   repo_password => 'password',
-#   api_host          => 'http://localhost:8080',
-# }
+#  class { '::midonet_mem':
+#    repo_user     => 'username',
+#    repo_password => 'password',
+#  }
 #
 # === Authors
 #
@@ -47,22 +44,10 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
+#
 class midonet_mem (
-# Midonet Manager installation options
   $repo_user     = undef,
   $repo_password = undef,
-# Midonet Manager configuration options
-  $api_host                   = $::midonet_mem::params::api_host,
-  $login_host                 = $::midonet_mem::params::login_host,
-  $trace_api_host             = $::midonet_mem::params::trace_api_host,
-  $traces_ws_url              = $::midonet_mem::params::traces_ws_url,
-  $api_version                = $::midonet_mem::params::api_version,
-  $api_token                  = $::midonet_mem::params::api_token,
-  $agent_config_api_host      = $::midonet_mem::params::agent_config_api_host,
-  $poll_enabled               = $::midonet_mem::params::poll_enabled,
-  $api_namespace              = $::midonet_mem::params::api_namespace,
-  $agent_config_api_namespace = $::midonet_mem::params::agent_config_api_namespace
 ) inherits ::midonet_mem::params {
 
   if $repo_user and $repo_password {
