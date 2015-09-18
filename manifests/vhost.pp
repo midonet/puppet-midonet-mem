@@ -2,8 +2,6 @@ class midonet_mem::vhost (
   $apache_port = $midonet_mem::params::apache_port,
   $servername  = $midonet_mem::params::servername,
   $docroot     = $midonet_mem::params::docroot,
-  $mem_package = $midonet_mem::params::mem_package,
-  $mem_path    = $midonet_mem::params::mem_install_path,
   $proxy_pass = [
     { 'path' => "/$midonet_mem::params::api_namespace",
       'url'  => "$midonet_mem::params::api_host",
@@ -25,7 +23,7 @@ class midonet_mem::vhost (
     docroot         => $docroot,
     proxy_pass      => $proxy_pass,
     directories     => $directories,
-    require         => Package["$mem_package"],
+    require         => Package["$midonet_mem::params::mem_package"],
   }
 
 }
